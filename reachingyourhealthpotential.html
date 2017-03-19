@@ -41,14 +41,19 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Reach</a>
+        </button> -->
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <img class="navLogo" alt="Brand" src="./img/reach_full_colour.png">
+        </a>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          Reach
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li>
             <a class="page-scroll" href="#mission">Mission</a>
@@ -66,20 +71,19 @@
             <a class="page-scroll" href="#contact">Contact</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
   </nav>
 
-  <header>
+  <header style="background-image: url('../img/diabetesStuff.jpg');">
     <div class="header-content">
       <div class="header-content-inner">
         <div>
-          <h1 id="homeHeading">Web Developer</h1>
-          <h1 id="homeHeading">+</h1>
-          <h1 id="homeHeading">Strategy Consultant</h1>
-
+          <img src="./img/reach_full_colour.png" alt="logo" class="logo">
+          <h1 id="homeHeading">Reaching Your</h1>
+          <h1 id="homeHeading">Health Potential</h1>
         </div>
         <!-- <hr> -->
         <!-- <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
@@ -87,6 +91,20 @@
       </div>
     </div>
   </header>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Mission</h2>
+          <hr class="light">
+          <!-- <p class="text-faded">Text Here</p> -->
+          <p class="text-faded">I am passionate about improving the healthcare ecosystem for everyone involved. I pursue projects that contribute to the common good, working with teams and individuals who really care about what they do. I am a web developer, a strategy consultant, and a proactive patient, ready to partner with you to achieve your objectives.</p>
+          <!-- <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="bg-primary" id="mission">
     <div class="container">
@@ -103,37 +121,7 @@
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-          <hr class="primary">
-          <p>Strategy or Web Development, let's talk about how to address your objectives and see if we would be a good team to get the job done with you.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <form action="https://formspree.io/thachert1d@gmail.com" method="post">
-            <div class="form-group">
-              <input name="name" type="text" class="form-control" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <!-- <label>Subject</label> -->
-              <input name="subject" type="text" class="form-control" placeholder="Subject">
-            </div>
-            <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-            <button type="submit" class="submitBtn btn btn-primary pull-right">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="bg-dark">
+  <footer id="footer" style="padding-bottom: 0px;">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -144,11 +132,10 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <p>
-            <a href="./skwad.html"><i class="fa fa-copyright"></i></a> Thacher 2016
+          <p class="copyright">
+            <a href="./skwad.html"><i class="socialIcons fa fa-copyright"></i></a> Thacher 2016
           </p>
         </div>
-
       </div>
     </div>
   </footer>

@@ -2,10 +2,14 @@
 @import "mixins.less";
 
 // Global Components
+* {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
 html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {
@@ -61,10 +65,13 @@ p {
 .submitBtn {
   margin-top: 15px;
 }
+.takeMeBackBtn {
+  margin: 15px;
+}
 .skwad {
   h1 {
-    background-color: @theme-dark;
-    color: @secondary-color;
+    background-color: @theme-primary;
+    color: @theme-secondary;
     font-size: 60px;
     margin: 0px;
     text-align: center;
@@ -77,7 +84,7 @@ p {
 .resume {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   h4 {
-    color: @theme-darker;
+    color: @theme-secondary;
     font-weight: bold;
   }
   p {
@@ -98,7 +105,7 @@ p {
 }
 .skills {
   ul {
-    color: @theme-darker !important;
+    color: @theme-secondary !important;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 0px;
@@ -112,6 +119,15 @@ section {
     padding: 30px 0;
 }
 
+.logo {
+  height: 175px;
+  width: 175px;
+  margin: 10px;
+}
+.navLogo {
+  height: 20px;
+  width: 20px;
+}
 #portfolio {
   background-color: @theme-primary;
   color: @secondary-color;
@@ -119,18 +135,28 @@ section {
   padding-bottom: 0px;
 }
 
-footer {
+#footer {
     padding: 25px 0px 20px 0px;
     text-align: center;
+    background-color: @theme-primary;
     p {
-      color: @theme-primary;
       font-size: 12px;
       padding-top: 10px;
     }
 }
 
+.socialIcons {
+  color: @secondary-color;
+}
+
 .no-padding {
     padding: 0;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 // Navigation
@@ -241,7 +267,7 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                font-size: 30px;
+                font-size: 50px;
             }
             hr {
                 margin: 30px auto;
