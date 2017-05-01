@@ -10,7 +10,9 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -75,6 +77,7 @@ p {
 }
 .resume {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 5%;
 }
 .resume h4 {
   color: #33BDDE;
