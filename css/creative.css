@@ -50,6 +50,7 @@ p {
 }
 #navStyle {
   background-color: white;
+  font-weight: bold;
 }
 .bg-primary {
   background-color: #022948;
