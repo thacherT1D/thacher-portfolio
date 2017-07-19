@@ -48,6 +48,9 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+#navStyle {
+  background-color: white;
+}
 .bg-primary {
   background-color: #022948;
 }
@@ -292,7 +295,7 @@ header .header-content .header-content-inner p {
   }
 }
 .section-heading {
-  margin-top: 0;
+  margin-top: 50px;
 }
 .service-box {
   max-width: 400px;
@@ -310,6 +313,7 @@ header .header-content .header-content-inner p {
   border-radius: 90px;
   height: 175px;
   width: 175px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 .portfolio-box {
