@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 * {
@@ -256,7 +256,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
   font-size: 50px;
 }
@@ -312,7 +312,7 @@ header .header-content .header-content-inner p {
   margin-bottom: 0;
 }
 .smallHeadshot {
-  border-radius: 90px;
+  border-radius: 10px;
   height: 175px;
   width: 175px;
   margin-top: 50px;
