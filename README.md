@@ -1,4 +1,4 @@
-# My Portfolio Site
+# Portfolio Site
 
 Showcasing my development work, healthcare strategy, and advocacy work.
 
